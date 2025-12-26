@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Form</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Young+Serif&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="section-1">
+        <h1 class="section-1__name">Abishek</h1>
+        <p class="section-1__role">Web Developer</p>
+        <a class="section-1__contact" href="index.html">Home Page</a>
+      </div>
+
+      <div class="contact__form">
+      <form>
+        <table>
+          <tr>
+            <td>Salutation</td>
+            <td>
+              <select class="contact__form__input">
+                <option>--None--</option>
+                <option>Mr.</option>
+                <option>Mrs.</option>
+                <option>Ms.</option>
+              </select>
+            </td>
+          </tr>
+
+          <tr>
+            <td>Name</td>
+            <td><input type="text" placeholder="ENTER YOUR NAME" class="contact__form__input"/></td>
+          </tr>
+
+          <tr>
+            <td>Age</td>
+            <td><input type="number" placeholder="ENETR YOUR AGE" class="contact__form__input"/></td>
+          </tr>
+
+          <tr>
+            <td>Email</td>
+            <td><input type="email" placeholder="ENTER YOUR EMAIL"  class="contact__form__input"/></td>
+          </tr>
+
+          <tr>
+            <td>Password</td>
+            <td>
+              <input type="password" placeholder="ENTER YOUR PASSWORD" class="contact__form__input"/>
+            </td>
+          </tr>
+
+          <tr>
+            <td>Gender</td>
+            <td>
+              <input type="radio" name="gender" value="male" class="contact__form__input" />Male
+              <input type="radio" name="gender" value="female" class="contact__form__input" />Female
+            </td>
+          </tr>
+
+          <tr>
+            <td>Address</td>
+            <td>
+              <textarea placeholder="ENTER YOUR Address" class="contact__form__textarea"></textarea>
+            </td>
+          </tr>
+
+          <tr>
+            <td>Date of Birth</td>
+            <td><input type="date" name="dob" class="contact__form__input" /></td>
+          </tr>
+
+          <tr>
+            <td>Department</td>
+            <td>
+              <select class="contact__form__input">
+                <option>--SELECT--</option>
+                <option>HR</option>
+                <option>Sales</option>
+                <option>Marketing</option>
+                <option>IT</option>
+                <option>Finance</option>
+              </select>
+            </td>
+          </tr>
+
+          <tr>
+            <td></td>
+            <td><input type="submit" class="contact__form__button"/></td>
+          </tr>
+        </table>
+      </form>
+      </div>
+
+      <div class="section-5">
+        <p class="section-5__title">
+          Social Media: <a href="">Instagram</a>,
+          <a href="">Linkedin</a>
+        </p>
+        <p class="section-5__description">&copy;Abishek</p>
+      </div>
+    </div>
+  </body>
+</html>
